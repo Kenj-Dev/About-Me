@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #d19fe8;
+        }
+        h1, h2, p {
+            margin: 10px 0;
+        }
+        .info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .buttons button {
+            background: #444;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .buttons button:hover {
+            background: #d19fe8;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1>About Me</h1>
+            <img src="pfp.png" alt="Profile Picture">
+        </div>
+        <div class="info">
+            <h2>Age: 13</h2>
+            <h2>Name: Kenji/Kenjiro</h2>
+            <h2>Pronouns: He/Him</h2>
+        </div>
+        <p>Hi, I'm Kenji :D. I'm a Game & Web Developer. I like to chat, play & develop games. I got some E-siblings. If you wanna be a friend you can friend me on discord :D. I also do commissions so if you want me to do one you can feel free to contact me. ;))</p>
+        <div class="buttons">
+            <button onclick="location.href='links.html'">Socials & Links</button>
+            <button onclick="location.href='siblings.html'">E-Siblings</button>
+            <button onclick="location.href='likesdislikes.html'">Likes & Dislikes</button>
+            <button onclick="location.href='commissions.html'">Commission Me</button>
+        </div>
+    </div>
+</body>
+</html>

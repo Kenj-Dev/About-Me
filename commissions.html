@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission Me</title>
+    <style>
+        body {
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .contact-img {
+            border: 3px solid #d19fe8;
+            transition: transform 0.2s;
+        }
+        .contact-img:hover {
+            transform: scale(1.1);
+        }
+        .back-button {
+            margin-top: 20px;
+        }
+        .back-button button {
+            background: #444;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .back-button button:hover {
+            background: #d19fe8;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Commission Me</h1>
+        <img src="user.png" alt="Discord Contact" class="contact-img">
+        <p>If you wanna hang out & chat or commission me, you can use the image above to contact me on Discord. :))</p>
+        
+        <div class="back-button">
+            <button onclick="location.href='index.html'">Back</button>
+        </div>
+    </div>
+</body>
+</html>
